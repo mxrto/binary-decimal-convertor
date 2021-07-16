@@ -56,3 +56,4 @@ elif choice == "d":
     binary = calc_bin(decimal)
 
     print(f"The binary output for {decimal} is: {binary}")
+#test
