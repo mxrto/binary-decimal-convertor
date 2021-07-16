@@ -23,7 +23,7 @@ def calc_dec():
 
 def calc_bin(dec_to_bin):
     """converts decimal to binary"""
-    
+
     remeinder = 0
     dec_list = []
 
@@ -51,7 +51,7 @@ if choice == "b":
     print(f"The decimal output for {binary} is: {decimal}")
 
 elif choice == "d":
-    decimal = int(input("Please enter you decimal number: "))
+    decimal = int(input("Please enter your decimal number: "))
     
     binary = calc_bin(decimal)
 
