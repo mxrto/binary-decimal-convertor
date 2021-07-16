@@ -2,7 +2,8 @@
 
 
 def calc_dec():
-    
+    """converts binary to decimal"""
+
     binary_list = []
 
     for _ in binary:
@@ -21,7 +22,8 @@ def calc_dec():
 
 
 def calc_bin(dec_to_bin):
-
+    """converts decimal to binary"""
+    
     remeinder = 0
     dec_list = []
 
